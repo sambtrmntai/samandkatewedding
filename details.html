@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details — Sam &amp; Kate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="wordmark" href="index.html">Sam &amp; Kate</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html" class="active">Details</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="seating.html">Seating</a></li>
+      <li><a href="updates.html">Updates</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Everything you need to know</p>
+    <h1>The <em>Details</em></h1>
+    <p class="sub">Saturday, [DATE]</p>
+  </div>
+
+  <div class="section">
+    <h2>Ceremony</h2>
+    <div class="detail-grid">
+      <div class="detail-card">
+        <h3>When</h3>
+        <p>[TIME]<br>Please arrive 15 minutes early.</p>
+      </div>
+      <div class="detail-card">
+        <h3>Where</h3>
+        <p>[CEREMONY VENUE]<br>[ADDRESS]<br>[CITY]</p>
+      </div>
+      <div class="detail-card">
+        <h3>Parking</h3>
+        <p>[PARKING DETAILS — e.g. street parking available on X St, or paid parking at Y]</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Reception</h2>
+    <div class="detail-grid">
+      <div class="detail-card">
+        <h3>When</h3>
+        <p>From [TIME]<br>Dinner served at [TIME]</p>
+      </div>
+      <div class="detail-card">
+        <h3>Where</h3>
+        <p>[RECEPTION VENUE]<br>[ADDRESS]<br>[CITY]</p>
+      </div>
+      <div class="detail-card">
+        <h3>Finishing</h3>
+        <p>The night wraps up at [TIME].</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Schedule</h2>
+    <table style="width:100%; border-collapse: collapse; font-size: 0.95rem;">
+      <tbody>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 0.9rem 0; width: 120px; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Guests arrive &amp; take seats</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 0.9rem 0; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Ceremony begins</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 0.9rem 0; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Cocktail hour &amp; canapés</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 0.9rem 0; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Reception doors open</td>
+        </tr>
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 0.9rem 0; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Dinner served</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.9rem 0; color: var(--sage); letter-spacing: 0.05em;">[TIME]</td>
+          <td style="padding: 0.9rem 0; color: var(--mid);">Dancing &amp; celebrations until close</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>Dress Code</h2>
+    <p>[e.g. Cocktail attire — think your best dressed. Heels are welcome but the grass may be soft, so flats are just as fabulous.]</p>
+  </div>
+
+  <div class="section">
+    <h2>Accommodation</h2>
+    <p>[Add nearby hotel recommendations, room blocks, or Airbnb suggestions here.]</p>
+  </div>
+
+  <div class="section" style="text-align: center;">
+    <a href="rsvp.html" class="btn">RSVP Now</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Sam &amp; Kate &nbsp;·&nbsp; Made with love
+  </footer>
+
+</body>
+</html>

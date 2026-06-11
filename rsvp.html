@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSVP — Sam &amp; Kate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="wordmark" href="index.html">Sam &amp; Kate</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="rsvp.html" class="active">RSVP</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="seating.html">Seating</a></li>
+      <li><a href="updates.html">Updates</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Kindly reply by [DATE]</p>
+    <h1><em>RSVP</em></h1>
+    <p class="sub">Let us know if you can make it</p>
+  </div>
+
+  <div class="section">
+    <!-- Replace the src below with your Google Form embed URL.
+         In Google Forms: Send → embed icon → copy the src from the iframe code. -->
+    <iframe
+      class="rsvp-embed"
+      src="REPLACE_WITH_GOOGLE_FORM_EMBED_URL"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      loading="lazy">
+      Loading form…
+    </iframe>
+    <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--mid); text-align: center;">
+      Having trouble with the form? Email us at <a href="mailto:[YOUR_EMAIL]" style="color: var(--rose);">[YOUR_EMAIL]</a>
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Sam &amp; Kate &nbsp;·&nbsp; Made with love
+  </footer>
+
+</body>
+</html>

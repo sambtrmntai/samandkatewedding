@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updates — Sam &amp; Kate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="wordmark" href="index.html">Sam &amp; Kate</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="seating.html">Seating</a></li>
+      <li><a href="updates.html" class="active">Updates</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Stay in the loop</p>
+    <h1><em>Updates</em></h1>
+    <p class="sub">News from Sam &amp; Kate</p>
+  </div>
+
+  <div class="section">
+    <!-- Add new updates at the TOP of this list. Format:
+         <li>
+           <span class="date">DD Mon YYYY</span>
+           <div class="body"><strong>Title</strong>Your message here.</div>
+         </li>
+    -->
+    <ul class="updates-list">
+
+      <li>
+        <span class="date">11 Jun 2025</span>
+        <div class="body">
+          <strong>Welcome!</strong>
+          Our wedding website is live. RSVP opens soon — we'll post another update when the form is ready. In the meantime, check out the <a href="details.html" style="color:var(--rose);">Details</a> page for everything you need to know.
+        </div>
+      </li>
+
+      <!-- Example of a future update (remove or replace):
+      <li>
+        <span class="date">01 Aug 2025</span>
+        <div class="body">
+          <strong>RSVP deadline reminder</strong>
+          Just a friendly nudge — RSVPs close on 15 August. If you haven't already, please let us know if you can make it!
+        </div>
+      </li>
+      -->
+
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Sam &amp; Kate &nbsp;·&nbsp; Made with love
+  </footer>
+
+</body>
+</html>
