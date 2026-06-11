@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos — Sam &amp; Kate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="wordmark" href="index.html">Sam &amp; Kate</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="details.html">Details</a></li>
+      <li><a href="rsvp.html">RSVP</a></li>
+      <li><a href="photos.html" class="active">Photos</a></li>
+      <li><a href="seating.html">Seating</a></li>
+      <li><a href="updates.html">Updates</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <p class="eyebrow">Memories</p>
+    <h1><em>Photos</em></h1>
+    <p class="sub">Official photos &amp; your snaps</p>
+  </div>
+
+  <div class="section">
+    <h2>Official Photos</h2>
+    <p>Our photographer's gallery will appear here after the wedding.</p>
+
+    <!-- Replace with Google Photos embed:
+         In Google Photos, open the album → Share → Create link → copy the URL.
+         Then embed via: <iframe src="GOOGLE_PHOTOS_URL" ...> -->
+    <div class="photo-placeholder" style="margin-top: 1.5rem;">
+      Photos coming soon after the big day
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Share Your Snaps</h2>
+    <p>Got a great shot from the day? We'd love to see it. Upload your photos to our shared folder and we'll add the best ones to the gallery.</p>
+
+    <!-- Replace href with your Google Drive upload folder link -->
+    <div style="margin-top: 1.5rem;">
+      <a href="REPLACE_WITH_GOOGLE_DRIVE_UPLOAD_LINK" class="btn" target="_blank" rel="noopener">
+        Upload Your Photos
+      </a>
+    </div>
+
+    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--mid);">
+      Anyone with the link can add photos. Files are only visible to us until we curate and share them.
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Sam &amp; Kate &nbsp;·&nbsp; Made with love
+  </footer>
+
+</body>
+</html>
