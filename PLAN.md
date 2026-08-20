@@ -32,8 +32,8 @@
 - [ ] Mobile-responsive layout throughout
 
 ### Phase 2 — Data Collection (Week 1–2)
-- [ ] Create Google Form for RSVPs (fields: name, +1, attendance, dietary requirements, email)
-- [ ] Embed RSVP form on RSVP page
+- [x] Create Google Form for RSVPs (fields: name, +1, attendance, dietary requirements, email)
+- [x] Embed RSVP form on RSVP page
 - [ ] Set up Mailchimp account and embed signup form for updates
 - [ ] Test form submissions end-to-end
 
@@ -57,4 +57,6 @@
 - Domain purchased at Porkbun, DNS pointed at GitHub Pages IPs
 - QR code already generated and sent to invitation maker — URL is locked as `https://samandkate.me`
 - Google Forms responses go to a linked Google Sheet — share that sheet with Kate too
+- Form: `Kate & Sam RSVP` (Google Forms) → responses in `Kate & Sam RSVP (Responses)` Sheet
+- Support email on the RSVP page: samuel.j-2003@hotmail.com
 - Don't add any paid services — everything here is free
