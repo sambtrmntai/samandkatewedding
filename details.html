@@ -6,7 +6,7 @@
   <title>Details — Kate &amp; Sam</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="details-page">
 
   <nav>
     <a class="wordmark" href="index.html">Kate &amp; Sam</a>
@@ -29,27 +29,153 @@
     <p class="sub">Tuesday, 17 November 2026</p>
   </div>
 
-  <div class="section">
+  <div class="section venue">
     <h2>Ceremony &amp; Reception</h2>
-    <div class="detail-grid">
-      <div class="detail-card">
-        <h3>When</h3>
-        <p>From 3:30 PM<br>Please arrive a little early to be seated.</p>
-      </div>
-      <div class="detail-card">
-        <h3>Where</h3>
-        <p>Enzo Weddings<br>Ironbark Hill Estate<br>694 Hermitage Road, Pokolbin</p>
-      </div>
-      <div class="detail-card">
-        <h3>Getting there</h3>
-        <p>Ironbark Hill Estate is in the Hunter Valley. Transport will be organised to and from the venue from the Charlestown area.</p>
-      </div>
+
+    <div class="venue-block">
+      <h3 class="script">When</h3>
+      <p class="venue-lead">Tuesday, 17 November 2026<br>From 3:30 PM</p>
+      <p class="venue-note">Please arrive a little early to be seated.</p>
     </div>
+
+    <span class="venue-divider" aria-hidden="true"></span>
+
+    <div class="venue-block">
+      <h3 class="script">Where</h3>
+      <img class="venue-sketch" src="images/venue-sketch.png" alt="Sketch of the chapel at Ironbark Hill Estate">
+      <p class="venue-lead">Enzo Weddings<br>Ironbark Hill Estate<br>694 Hermitage Road, Pokolbin</p>
+      <a class="btn btn-outline btn-pill" href="https://www.google.com/maps/search/?api=1&amp;query=Enzo+Weddings+694+Hermitage+Road+Pokolbin+NSW" target="_blank" rel="noopener">View Map</a>
+    </div>
+
+    <span class="venue-divider" aria-hidden="true"></span>
+
+    <div class="venue-block">
+      <h3 class="script">Getting there</h3>
+      <p class="venue-note">Ironbark Hill Estate is in the Hunter Valley, about an hour from Charlestown. We've put on two coaches so nobody has to worry about the drive. There'll be a bar tab running all night, so leave the car at home and hop on the coach with us.</p>
+
+      <div class="coach">
+        <h4>Coach 1 &middot; Charlestown</h4>
+        <ul class="stops">
+        <li>
+          <span class="stop-time">2:00 PM</span>
+          <span class="stop-body"><strong>Kirkdale Drive bus stop</strong><span>83 Kirkdale Drive, Charlestown</span></span>
+          <a class="stop-map" href="https://www.google.com/maps/search/?api=1&amp;query=83+Kirkdale+Drive+Charlestown+NSW" target="_blank" rel="noopener">View Map</a>
+        </li>
+        <li>
+          <span class="stop-time">2:10 PM</span>
+          <span class="stop-body"><strong>Apollo International Hotel</strong><span>290 Pacific Highway, Charlestown &middot; car park</span></span>
+          <a class="stop-map" href="https://www.google.com/maps/search/?api=1&amp;query=Apollo+International+Hotel+290+Pacific+Highway+Charlestown+NSW" target="_blank" rel="noopener">View Map</a>
+        </li>
+        <li>
+          <span class="stop-time">2:20 PM</span>
+          <span class="stop-body"><strong>Mercure Charlestown</strong><span>109 Madison Drive, Charlestown &middot; bus stop opposite</span></span>
+          <a class="stop-map" href="https://www.google.com/maps/search/?api=1&amp;query=Mercure+Charlestown+109+Madison+Drive+Charlestown+NSW" target="_blank" rel="noopener">View Map</a>
+        </li>
+        </ul>
+      </div>
+
+      <div class="coach">
+        <h4>Coach 2 &middot; Charlestown &amp; Toronto</h4>
+        <ul class="stops">
+        <li>
+          <span class="stop-time">2:00 PM</span>
+          <span class="stop-body"><strong>Kirkdale Drive bus stop</strong><span>83 Kirkdale Drive, Charlestown</span></span>
+          <a class="stop-map" href="https://www.google.com/maps/search/?api=1&amp;query=83+Kirkdale+Drive+Charlestown+NSW" target="_blank" rel="noopener">View Map</a>
+        </li>
+        <li>
+          <span class="stop-time">2:25 PM</span>
+          <span class="stop-body"><strong>Toronto Hotel</strong><span>Victory Parade, Toronto &middot; bus stop opposite</span></span>
+          <a class="stop-map" href="https://www.google.com/maps/search/?api=1&amp;query=Toronto+Hotel+Victory+Parade+Toronto+NSW" target="_blank" rel="noopener">View Map</a>
+        </li>
+        </ul>
+      </div>
+
+      <p class="venue-note">Both coaches head back at <strong>11:00 PM</strong>, dropping everyone at the same stops. They leave on the dot, so please be waiting a few minutes early.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Run Sheet</h2>
+    <p>A rough guide to how the day will unfold. Timings are approximate and may shift a little on the day.</p>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-armchair" viewBox="0 0 256 256"><path d="M212,92.23V72a36,36,0,0,0-36-36H80A36,36,0,0,0,44,72V92.23a36,36,0,0,0,0,71.55V200a12,12,0,0,0,12,12H200a12,12,0,0,0,12-12V163.78a36,36,0,0,0,0-71.55ZM80,44h96a28,28,0,0,1,28,28V92.23A36,36,0,0,0,172,128v4H84v-4A36,36,0,0,0,52,92.23V72A28,28,0,0,1,80,44ZM208.3,156H208a4,4,0,0,0-4,4v40a4,4,0,0,1-4,4H56a4,4,0,0,1-4-4V160h0a4,4,0,0,0-4-4h-.3A28,28,0,1,1,76,128v40a4,4,0,0,0,8,0V140h88v28a4,4,0,0,0,8,0V128a28,28,0,1,1,28.3,28Z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 256 256"><path d="M178,44c-21.44,0-39.92,10.19-50,27.07C117.92,54.19,99.44,44,78,44a58.07,58.07,0,0,0-58,58c0,28.59,18,58.47,53.4,88.79a333.81,333.81,0,0,0,52.7,36.73,4,4,0,0,0,3.8,0,333.81,333.81,0,0,0,52.7-36.73C218,160.47,236,130.59,236,102A58.07,58.07,0,0,0,178,44ZM128,219.42c-14-8-100-59.35-100-117.42A50.06,50.06,0,0,1,78,52c21.11,0,38.85,11.31,46.3,29.51a4,4,0,0,0,7.4,0C139.15,63.31,156.89,52,178,52a50.06,50.06,0,0,1,50,50C228,160,142,211.46,128,219.42Z"/></symbol>
+    <symbol id="i-champagne" viewBox="0 0 256 256"><path d="M142.3,12H97.7a4,4,0,0,0-3.8,2.76c-1.45,4.47-35.2,109.75-6.13,149.78C94.5,173.79,104,178.92,116,179.83V236H96a4,4,0,0,0,0,8h48a4,4,0,0,0,0-8H124V179.83c12-.91,21.5-6,28.22-15.29,29.08-40-4.67-145.31-6.12-149.78A4,4,0,0,0,142.3,12Zm-41.65,8h38.7A455.34,455.34,0,0,1,151,68H89A462,462,0,0,1,100.65,20Zm45.1,139.83C139.8,168,131.38,172,120,172s-19.8-4-25.75-12.16C81,141.63,82.6,106.72,87.6,76h64.81C158.86,116,156.57,144.94,145.75,159.83ZM228,52a8,8,0,1,1-8-8A8,8,0,0,1,228,52ZM204,20a8,8,0,1,1-8-8A8,8,0,0,1,204,20Zm0,80a8,8,0,1,1-8-8A8,8,0,0,1,204,100Z"/></symbol>
+    <symbol id="i-confetti" viewBox="0 0 256 256"><path d="M108.66,55.46a11.79,11.79,0,0,0-19.43,4.31L36.73,204.15a11.81,11.81,0,0,0,11,15.85,11.88,11.88,0,0,0,4.08-.73l144.38-52.5a11.79,11.79,0,0,0,4.31-19.43Zm-6.53,137L63.52,153.87l16.19-44.51,66.92,66.93Zm-53,19.28a3.81,3.81,0,0,1-4.87-4.87l16.27-44.72,33.32,33.32Zm146.8-55.25a3.77,3.77,0,0,1-2.42,2.74l-38.56,14L82.72,101.07l14-38.56a3.77,3.77,0,0,1,2.74-2.42,4.32,4.32,0,0,1,.85-.09A3.65,3.65,0,0,1,103,61.12L194.88,153A3.78,3.78,0,0,1,195.91,156.51ZM220,24c0,9.68-5.85,28-28,28-8.31,0-14.18,3.29-17.42,9.79A26.12,26.12,0,0,0,172,72a4,4,0,0,1-8,0,34.06,34.06,0,0,1,3.42-13.79C170.66,51.73,177.56,44,192,44c19.29,0,20-18,20-20a4,4,0,0,1,4-4h0A4,4,0,0,1,220,24ZM140,40V16a4,4,0,0,1,8,0V40a4,4,0,0,1-8,0Zm94.83,85.17a4,4,0,0,1-5.66,5.66l-16-16a4,4,0,0,1,5.66-5.66Zm6.43-49.37-24,8A4,4,0,0,1,216,84a4,4,0,0,1-1.27-7.79l24-8a4,4,0,0,1,2.53,7.59Z"/></symbol>
+    <symbol id="i-hands-clapping" viewBox="0 0 256 256"><path d="M164.22,24V8a4,4,0,0,1,8,0V24a4,4,0,0,1-8,0Zm34,13.55a4,4,0,0,0,5.51-1.33l8-13.11a4,4,0,0,0-6.84-4.17l-8,13.11A4,4,0,0,0,198.19,37.55Zm41.62,17.23a4,4,0,0,0-5.05-2.58L219.7,57.05a4,4,0,0,0,1.23,7.8,4,4,0,0,0,1.23-.19l15.06-4.85A4,4,0,0,0,239.81,54.78ZM203,189.66c-.37,2-.81,4-1.34,6A76.18,76.18,0,0,1,62.22,214L27,153a22,22,0,0,1,22.76-32.69L43.19,109A22,22,0,0,1,65.92,76.32L61.69,69A22,22,0,0,1,96.87,43,21.83,21.83,0,0,1,106.72,31,22.08,22.08,0,0,1,136.82,39l15.79,27.3A22.05,22.05,0,0,1,192.34,63l21.14,36.57A76.19,76.19,0,0,1,203,189.66ZM161.08,81l33,57.05a75.49,75.49,0,0,1,10.21,37.24,68.26,68.26,0,0,0,2.27-71.66L185.4,67A14,14,0,0,0,161.08,81ZM105.59,57l28.54,49.29a22,22,0,0,1,24.28-14L129.88,43a14,14,0,1,0-24.29,14Zm-37,8,10,17.27a22,22,0,0,1,24.27-14L92.91,51A14,14,0,1,0,68.63,65Zm118.5,77L166.9,107a14,14,0,0,0-24.67,13.26L154.83,142a4,4,0,1,1-6.93,4L111.39,83h0a14,14,0,0,0-19.15-5.11A14,14,0,0,0,87.09,97v0h0l26.05,45a4,4,0,0,1-1.46,5.47,4,4,0,0,1-5.48-1.46L74.42,91h0a14,14,0,0,0-24.28,14l35.23,61a4,4,0,0,1-6.94,4L58.18,135a14,14,0,0,0-24.29,14l35.27,61a68.09,68.09,0,0,0,118-68Z"/></symbol>
+    <symbol id="i-fork-knife" viewBox="0 0 256 256"><path d="M76,88V40a4,4,0,0,1,8,0V88a4,4,0,0,1-8,0ZM212,40V224a4,4,0,0,1-8,0V172H152a4,4,0,0,1-4-4,264.27,264.27,0,0,1,7.11-55.94c9.47-39.22,27.21-65.41,51.31-75.74A4,4,0,0,1,212,40Zm-8,6.46C162.25,70.33,156.81,145.75,156.1,164H204Zm-88-7.12a4,4,0,0,0-7.9,1.32l8,47.66a36,36,0,0,1-72,0l8-47.66a4,4,0,0,0-7.9-1.32l-8,48A4.89,4.89,0,0,0,36,88a44.06,44.06,0,0,0,40,43.81V224a4,4,0,0,0,8,0V131.81A44.06,44.06,0,0,0,124,88a4.89,4.89,0,0,0,0-.66Z"/></symbol>
+    <symbol id="i-bowl-food" viewBox="0 0 256 256"><path d="M224,108H211.9a84,84,0,0,0-167.8,0H32a4,4,0,0,0-4,4,100.32,100.32,0,0,0,56,89.82V208a12,12,0,0,0,12,12h64a12,12,0,0,0,12-12v-6.18A100.32,100.32,0,0,0,228,112,4,4,0,0,0,224,108Zm-20.11,0H141.05a75.92,75.92,0,0,1,50.16-38.14A75.45,75.45,0,0,1,203.89,108ZM186,62.93A83.92,83.92,0,0,0,132.08,108H94.68A76.22,76.22,0,0,1,168,52c2.33,0,4.68.13,7,.34A76.81,76.81,0,0,1,186,62.93ZM128,36a75.48,75.48,0,0,1,34.3,8.21A84.26,84.26,0,0,0,86.41,108H52.11A76.09,76.09,0,0,1,128,36Zm38.33,159.66A4,4,0,0,0,164,199.3V208a4,4,0,0,1-4,4H96a4,4,0,0,1-4-4v-8.7a4,4,0,0,0-2.33-3.64A92.33,92.33,0,0,1,36.09,116H219.91A92.33,92.33,0,0,1,166.33,195.66Z"/></symbol>
+    <symbol id="i-microphone-stage" viewBox="0 0 256 256"><path d="M168,20a68.08,68.08,0,0,0-68,68,67.19,67.19,0,0,0,.82,10.49L30.34,194.59a11.94,11.94,0,0,0,1.2,15.58l14.29,14.3a11.95,11.95,0,0,0,15.58,1.19l96.11-70.48A68,68,0,1,0,168,20Zm60,68a59.7,59.7,0,0,1-14.87,39.47L128.54,42.87A59.94,59.94,0,0,1,228,88ZM56.68,219.21a4,4,0,0,1-5.2-.4L37.19,204.52a4,4,0,0,1-.4-5.2l66.46-90.62a68.31,68.31,0,0,0,44.05,44.05ZM108,88a59.77,59.77,0,0,1,14.87-39.47l84.6,84.6A60,60,0,0,1,108,88Zm-1.17,61.17a4,4,0,0,1,0,5.65l-8,8a4,4,0,1,1-5.65-5.65l8-8A4,4,0,0,1,106.84,149.16Z"/></symbol>
+    <symbol id="i-cake" viewBox="0 0 256 256"><path d="M228,112a20,20,0,0,0-20-20H132V75.71A28,28,0,0,0,156,48c0-25.84-24.73-42.63-25.78-43.33a4,4,0,0,0-4.44,0C124.73,5.37,100,22.16,100,48a28,28,0,0,0,24,27.71V92H48a20,20,0,0,0-20,20v23.33a36.85,36.85,0,0,0,8,22.91V200a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V158.24a36.85,36.85,0,0,0,8-22.91ZM108,48c0-17.39,14.37-30.53,20-35,5.63,4.48,20,17.62,20,35a20,20,0,0,1-40,0Zm92,164H56a12,12,0,0,1-12-12V165.73A35.16,35.16,0,0,0,63,172a36.13,36.13,0,0,0,33-19.48,36,36,0,0,0,64,0A36.13,36.13,0,0,0,192,172h1a35.16,35.16,0,0,0,19-6.26V200A12,12,0,0,1,200,212Zm20-76.67c0,15.39-12.21,28.25-27.21,28.66A28,28,0,0,1,164,136a4,4,0,0,0-8,0,28,28,0,0,1-56,0,4,4,0,0,0-8,0,28,28,0,0,1-28.79,28c-15-.41-27.21-13.27-27.21-28.66V112a12,12,0,0,1,12-12H208a12,12,0,0,1,12,12Z"/></symbol>
+    <symbol id="i-music-notes" viewBox="0 0 256 256"><path d="M210.46,20.85a4,4,0,0,0-3.43-.73l-128,32A4,4,0,0,0,76,56V174.87A32,32,0,1,0,84,196V107.12l120-30v65.75A32,32,0,1,0,212,164V24A4,4,0,0,0,210.46,20.85ZM52,220a24,24,0,1,1,24-24A24,24,0,0,1,52,220Zm128-32a24,24,0,1,1,24-24A24,24,0,0,1,180,188ZM84,98.88V59.12l120-30V68.88Z"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 256 256"><path d="M84,56V24a4,4,0,0,1,8,0V56a4,4,0,0,1-8,0Zm36,4a4,4,0,0,0,4-4V24a4,4,0,0,0-8,0V56A4,4,0,0,0,120,60Zm32,0a4,4,0,0,0,4-4V24a4,4,0,0,0-8,0V56A4,4,0,0,0,152,60Zm92,60v8a36,36,0,0,1-36,36h-.41a92.53,92.53,0,0,1-35.76,48H208a4,4,0,0,1,0,8H32a4,4,0,0,1,0-8H68.17A92.34,92.34,0,0,1,28,136V88a4,4,0,0,1,4-4H208A36,36,0,0,1,244,120Zm-40,16V92H36v44a84.28,84.28,0,0,0,48.21,76h71.58A84.28,84.28,0,0,0,204,136Zm32-16a28,28,0,0,0-24-27.71V136a91.75,91.75,0,0,1-2.2,19.94A28,28,0,0,0,236,128Z"/></symbol>
+    <symbol id="i-disco-ball" viewBox="0 0 256 256"><path d="M116,68.1V16a4,4,0,0,0-8,0V68.1a84,84,0,1,0,8,0ZM187.89,148h-40c-1-37.34-15.73-60.22-25.35-71.25A76.12,76.12,0,0,1,187.89,148ZM112,226.68C105,220,85.26,197.61,84.06,156h55.88C138.74,197.61,119,220,112,226.68ZM84.06,148c1.2-41.61,21-64,27.94-70.68,7,6.64,26.74,29.07,27.94,70.68Zm17.36-71.25c-9.62,11-24.35,33.91-25.35,71.25h-40A76.12,76.12,0,0,1,101.42,76.75ZM36.11,156h40c1,37.34,15.73,60.22,25.35,71.25A76.12,76.12,0,0,1,36.11,156Zm86.47,71.25c9.62-11,24.35-33.91,25.35-71.25h40A76.12,76.12,0,0,1,122.58,227.25ZM252,88a4,4,0,0,1-4,4H236v12a4,4,0,0,1-8,0V92H216a4,4,0,0,1,0-8h12V72a4,4,0,0,1,8,0V84h12A4,4,0,0,1,252,88ZM212,40a4,4,0,0,1-4,4H188V64a4,4,0,0,1-8,0V44H160a4,4,0,0,1,0-8h20V16a4,4,0,0,1,8,0V36h20A4,4,0,0,1,212,40Z"/></symbol>
+    <symbol id="i-moon-stars" viewBox="0 0 256 256"><path d="M236,96a4,4,0,0,1-4,4H212v20a4,4,0,0,1-8,0V100H184a4,4,0,0,1,0-8h20V72a4,4,0,0,1,8,0V92h20A4,4,0,0,1,236,96ZM144,52h12V64a4,4,0,0,0,8,0V52h12a4,4,0,0,0,0-8H164V32a4,4,0,0,0-8,0V44H144a4,4,0,0,0,0,8Zm69.73,103.58a4,4,0,0,1,.71,4,92,92,0,1,1-118-118,4,4,0,0,1,5.29,4.54A93.18,93.18,0,0,0,100,64a92.1,92.1,0,0,0,92,92,93.18,93.18,0,0,0,17.91-1.74A4,4,0,0,1,213.73,155.58Zm-9.46,7.67A100,100,0,0,1,92.75,51.73,84,84,0,1,0,204.27,163.25Z"/></symbol>
+  </svg>
+    <ol class="timeline">
+      <li>
+        <span class="tl-icon"><svg><use href="#i-armchair"/></svg></span>
+        <span class="tl-text"><span class="time">3:30 PM</span><span class="event">Find a seat &amp; say hello</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-heart"/></svg></span>
+        <span class="tl-text"><span class="time">4:00 PM</span><span class="event">We say “I do”</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-champagne"/></svg></span>
+        <span class="tl-text"><span class="time">5:00 PM</span><span class="event">Bubbles on the veranda</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-confetti"/></svg></span>
+        <span class="tl-text"><span class="time">6:00 PM</span><span class="event">Into the reception</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-hands-clapping"/></svg></span>
+        <span class="tl-text"><span class="time">6:15 PM</span><span class="event">Meet the wedding party</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-fork-knife"/></svg></span>
+        <span class="tl-text"><span class="time">6:30 PM</span><span class="event">First course</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-bowl-food"/></svg></span>
+        <span class="tl-text"><span class="time">7:15 PM</span><span class="event">The feast</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-microphone-stage"/></svg></span>
+        <span class="tl-text"><span class="time">8:00 PM</span><span class="event">A few words from loved ones</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-cake"/></svg></span>
+        <span class="tl-text"><span class="time">8:20 PM</span><span class="event">Cake time</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-music-notes"/></svg></span>
+        <span class="tl-text"><span class="time">8:25 PM</span><span class="event">Our first dance</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-coffee"/></svg></span>
+        <span class="tl-text"><span class="time">8:35 PM</span><span class="event">Something sweet</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-disco-ball"/></svg></span>
+        <span class="tl-text"><span class="time">8:45 PM</span><span class="event">Dance the night away</span></span>
+      </li>
+      <li>
+        <span class="tl-icon"><svg><use href="#i-moon-stars"/></svg></span>
+        <span class="tl-text"><span class="time">11:00 PM</span><span class="event">Until next time</span></span>
+      </li>
+    </ol>
   </div>
 
   <div class="section">
     <h2>Dress Code</h2>
     <p>Formal — we'd love to see you in <strong>pink, grey or black</strong>.</p>
+    <ul class="swatches" aria-label="Dress code colours">
+      <li><span class="swatch swatch-pink"></span></li>
+      <li><span class="swatch swatch-grey"></span></li>
+      <li><span class="swatch swatch-black"></span></li>
+    </ul>
   </div>
 
   <div class="section">
@@ -62,7 +188,7 @@
     <p>Your love, laughter and company are all we could ask for on our special day. If you'd like to honour us with a gift, there will be a wishing well at the reception.</p>
   </div>
 
-  <div class="section" style="text-align: center;">
+  <div class="section">
     <a href="rsvp.html" class="btn">RSVP Now</a>
   </div>
 
