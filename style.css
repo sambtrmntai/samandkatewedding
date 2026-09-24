@@ -431,13 +431,30 @@ nav ul a.active { color: var(--rose); }
 .details-page .section,
 .details-page .detail-card { text-align: center; }
 
+/* ── Dress code attire silhouettes ── */
+.attire {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2.2rem;
+  margin-top: 2rem;
+}
+
+.attire-icon { width: 58px; height: auto; display: block; }
+.attire-pink     { fill: #e8b4b8; }
+.attire-grey     { fill: #9a9a9a; }
+.attire-black    { fill: #1f1a1a; }
+.attire-charcoal { fill: #4a4646; }
+.attire-shirt    { fill: var(--cream); }
+.attire-tie      { fill: #1f1a1a; }
+
 /* ── Dress code swatches ── */
 .swatches {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
-  margin-top: 1.5rem;
+  gap: 2rem;
+  margin-top: 1.8rem;
 }
 
 .swatches li {
@@ -449,8 +466,8 @@ nav ul a.active { color: var(--rose); }
 
 .swatch {
   display: block;
-  width: 56px;
-  height: 56px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   border: 1px solid var(--border);
   box-shadow: 0 2px 6px rgba(58, 46, 46, 0.08);
@@ -546,6 +563,9 @@ footer {
   #countdown .num { font-size: 2.2rem; }
 
   .updates-list li { grid-template-columns: 1fr; gap: 0.3rem; }
+
+  .attire { gap: 1.2rem; }
+  .attire-icon { width: 48px; }
 
   .stops li { grid-template-columns: 60px 1fr; }
   .stop-map { grid-column: 2; justify-self: start; }
