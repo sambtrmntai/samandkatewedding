@@ -46,7 +46,7 @@
       <div class="unit"><div class="num" id="cd-secs">—</div><div class="label">Seconds</div></div>
     </div>
 
-    <a href="rsvp.html" class="btn btn-outline" style="margin-top: 1rem;">RSVPs Closed</a>
+    <a href="rsvp.html" class="btn btn-outline rsvp-btn" style="margin-top: 1rem;">RSVPs Closed</a>
   </div>
 
   <div class="section" style="text-align: center;">
@@ -83,5 +83,14 @@
     setInterval(tick, 1000);
   </script>
 
+  <script>
+    // Late RSVPs: show "RSVP Now" until Fri 6 Nov 2026 11:59 PM AEDT, then fall back to "RSVPs Closed"
+    if (Date.now() < new Date('2026-11-06T23:59:59+11:00').getTime()) {
+      document.querySelectorAll('.rsvp-btn').forEach(function (b) {
+        b.classList.remove('btn-outline');
+        b.textContent = 'RSVP Now';
+      });
+    }
+  </script>
 </body>
 </html>
