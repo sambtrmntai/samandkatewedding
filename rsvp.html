@@ -23,19 +23,52 @@
     </ul>
   </nav>
 
-  <div class="page-hero">
-    <p class="eyebrow">RSVPs closed 1 October 2026</p>
-    <h1><em>RSVP</em></h1>
-    <p class="sub">Thank you to everyone who replied</p>
-  </div>
+  <!-- Late RSVPs: open until Fri 6 Nov 2026 11:59 PM AEDT, then this page reverts to the closed notice automatically -->
+  <div id="rsvp-open" hidden>
+    <div class="page-hero">
+      <p class="eyebrow">Late RSVPs close Friday 6 November, 11:59 PM</p>
+      <h1><em>RSVP</em></h1>
+      <p class="sub">Let us know if you can make it</p>
+    </div>
 
-  <div class="section">
-    <div class="photo-placeholder">
-      <p><strong>RSVPs are now closed.</strong></p>
-      <p style="margin-top: 0.75rem;">We've submitted final numbers to the venue, so we can no longer take new responses through the form.</p>
-      <p style="margin-top: 0.75rem;">If your plans have changed or you need to update your details, please email us at <a href="mailto:samuel.j-2003@hotmail.com" style="color: var(--rose);">samuel.j-2003@hotmail.com</a>.</p>
+    <div class="section">
+      <iframe
+        class="rsvp-embed"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeEp4Vn32J6Epffqnf7fkykdQ_edGJzGR6phKZ7Re5BRP60Vw/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        loading="lazy">
+        Loading form…
+      </iframe>
+      <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--mid); text-align: center;">
+        Having trouble with the form? Email us at <a href="mailto:wedding@samandkate.me" style="color: var(--rose);">wedding@samandkate.me</a>
+      </p>
     </div>
   </div>
+
+  <div id="rsvp-closed">
+    <div class="page-hero">
+      <p class="eyebrow">RSVPs are closed</p>
+      <h1><em>RSVP</em></h1>
+      <p class="sub">Thank you to everyone who replied</p>
+    </div>
+
+    <div class="section">
+      <div class="photo-placeholder">
+        <p><strong>RSVPs are now closed.</strong></p>
+        <p style="margin-top: 0.75rem;">We've submitted final numbers to the venue, so we can no longer take new responses through the form.</p>
+        <p style="margin-top: 0.75rem;">If your plans have changed or you need to update your details, please email us at <a href="mailto:samuel.j-2003@hotmail.com" style="color: var(--rose);">samuel.j-2003@hotmail.com</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if (Date.now() < new Date('2026-11-06T23:59:59+11:00').getTime()) {
+      document.getElementById('rsvp-open').hidden = false;
+      document.getElementById('rsvp-closed').hidden = true;
+    }
+  </script>
 
   <footer>
     &copy; 2026 Kate &amp; Sam &nbsp;·&nbsp; Made with love
